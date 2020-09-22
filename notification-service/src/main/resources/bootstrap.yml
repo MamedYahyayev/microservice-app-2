@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: notification-service
+
+  cloud:
+    config:
+      profile: default
+      uri: ${CONFIG_SERVER_URL:http://localhost:8888}
+
+
+server:
+  port: 8091
+
+

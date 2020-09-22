@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://C:/Users/Windows10/Desktop/microservice-app/config-server/git-localconfig-repo
+
+server:
+  port: 8888
+
+

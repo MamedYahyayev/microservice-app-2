@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ticket-service
+
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URL:http://localhost:8888}
+
+
+  profiles:
+    active: default
+
+server:
+  port: 8082
